@@ -1,4 +1,4 @@
-import { useEffect, useCallback, Suspense } from 'react';
+import { useEffect, useCallback } from 'react';
 import { useSelector, shallowEqual } from 'react-redux';
 import { RootState } from '../../redux/store';
 import { useAppDispatch } from '../../redux/hook';
