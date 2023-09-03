@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={''} element={<Main/>}/>
+        <Route path={'lists-of-books'} element={<Main/>}/>
       </Routes>
     </BrowserRouter>
   );
